@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Sing up HR-FORCE</title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body class="body-registro">
+    <div class="registro">
+		<div class="contenedor-input">
+			<div class="titulo-registro">
+				<h3>REGISTRARSE</h3>
+		</div>
+
+<form id="form_registrarse" onsubmit="return validar_nombre_usuario()">
+<input id="in_nombre_usuario"  type="text"  placeholder="Nombre" />
+<br>
+<br>
+<input type="password" id="in_contrasena" placeholder="Contraseña" />
+<br>
+<br>
+<input type="password" id="in_confirmar_contrasena"  placeholder="Confirmar Contraseña" />
+<br>
+<br>
+<button  id="btn_registrar_usuario" class="boton-registrar" > Registar </button>
+</form>
+    </div>
+    </div>
+<script src="validaciones.js">
+</script>
+</body>
+</html>
